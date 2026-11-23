@@ -30,4 +30,4 @@ Aktualizacja: `git -C ~/.config/tmux pull`, potem `prefix r` w działającym tmu
 | `tmux.conf` | config |
 | `bar-frames.sh` | generuje klatki animacji paska (fade-in i mruganie kursora); odpala go `tmux.conf` przy każdym wczytaniu |
 
-Shell bierze z `$SHELL`. U mnie to fish, a terminal to [alacritty](https://github.com/K-u-r-c/alacritty).
+Shell bierze z `$SHELL`. U mnie to fish, a terminal to [ghostty](https://github.com/K-u-r-c/ghostty) (albo [alacritty](https://github.com/K-u-r-c/alacritty)). `extended-keys` przepuszcza Shift+Enter / Ctrl+Enter do nvima i Claude Code, a `allow-passthrough` – obrazki (protokół Kitty) z nvima.
